@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Audio files (except harvard.wav for demo)
+*.mp3
+!harvard.wav
+
+# FFmpeg - exclude source code, keep only binaries
+ffmpeg/*
+!ffmpeg/bin/
+!ffmpeg/bin/*.exe
+!ffmpeg/bin/*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.bak
